@@ -150,18 +150,14 @@ Il backlog è organizzato in 9 Epic. Ogni Epic ha un proprio file di dettaglio i
 
 ## 9. User Story
 
-Le User Story sono in [user-stories/](user-stories/), una per file, raggruppate per Epic. Sono definite per ora solo quelle dell'Epic 1; le altre verranno aggiunte epic per epic.
-
 ### EPIC 1 — Creazione e accesso al profilo
 
-| ID     | Titolo                                | File                                                                          |
-| ------ | ------------------------------------- | ----------------------------------------------------------------------------- |
-| US-1.1 | Registrazione e creazione del profilo | [us-1.1-registrazione.md](user-stories/us-1.1-registrazione.md)               |
-| US-1.2 | Accesso alla piattaforma (login)      | [us-1.2-login.md](user-stories/us-1.2-login.md)                               |
-| US-1.3 | Uscita dalla piattaforma (logout)     | [us-1.3-logout.md](user-stories/us-1.3-logout.md)                             |
-| US-1.4 | Recupero della password              | [us-1.4-recupero-password.md](user-stories/us-1.4-recupero-password.md)       |
-| US-1.5 | Modifica del profilo                  | [us-1.5-modifica-profilo.md](user-stories/us-1.5-modifica-profilo.md)         |
-| US-1.6 | Eliminazione del profilo              | [us-1.6-eliminazione-profilo.md](user-stories/us-1.6-eliminazione-profilo.md) |
+- [US-1.1 — Registrazione e creazione del profilo](user-stories/us-1.1-registrazione.md)
+- [US-1.2 — Accesso alla piattaforma (login)](user-stories/us-1.2-login.md)
+- [US-1.3 — Uscita dalla piattaforma (logout)](user-stories/us-1.3-logout.md)
+- [US-1.4 — Recupero della password](user-stories/us-1.4-recupero-password.md)
+- [US-1.5 — Modifica del profilo](user-stories/us-1.5-modifica-profilo.md)
+- [US-1.6 — Eliminazione del profilo](user-stories/us-1.6-eliminazione-profilo.md)
 
 ## 10. Assunzioni e vincoli
 
