@@ -11,4 +11,9 @@ Ambito:
 
 ## User Story
 
-_Da definire._
+| ID     | Titolo                                                 | File                                                                                                         |
+| ------ | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
+| US-4.1 | Visualizzazione di una cartella condivisa e dei membri | [us-4.1-visualizzazione-cartella-condivisa.md](../user-stories/us-4.1-visualizzazione-cartella-condivisa.md) |
+| US-4.2 | Aggiunta di un documento a una cartella condivisa      | [us-4.2-aggiunta-documento-condivisa.md](../user-stories/us-4.2-aggiunta-documento-condivisa.md)             |
+| US-4.3 | Rimozione di un documento da una cartella condivisa    | [us-4.3-rimozione-documento-condivisa.md](../user-stories/us-4.3-rimozione-documento-condivisa.md)           |
+| US-4.4 | Uscita da una cartella condivisa (autoesclusione)      | [us-4.4-autoesclusione.md](../user-stories/us-4.4-autoesclusione.md)                                         |

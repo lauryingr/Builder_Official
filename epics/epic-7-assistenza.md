@@ -9,4 +9,7 @@ Ambito:
 
 ## User Story
 
-_Da definire._
+| ID     | Titolo                                      | File                                                                                 |
+| ------ | ------------------------------------------- | ------------------------------------------------------------------------------------ |
+| US-7.1 | Segnalazione di assistenza tecnica          | [us-7.1-assistenza-tecnica.md](../user-stories/us-7.1-assistenza-tecnica.md)         |
+| US-7.2 | Richiesta di inserimento di un nuovo comune | [us-7.2-richiesta-nuovo-comune.md](../user-stories/us-7.2-richiesta-nuovo-comune.md) |

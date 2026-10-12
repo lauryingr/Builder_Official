@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 470" width="1000" height="470" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#475569"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="470" fill="#ffffff"/>
+
+  <text x="500" y="34" text-anchor="middle" font-size="20" font-weight="bold" fill="#0f172a">BuildEr — dal dato affidabile all'applicazione</text>
+
+  <!-- Colonna fonti -->
+  <text x="130" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#64748b" letter-spacing="1">FONTI ISTITUZIONALI</text>
+  <rect x="40" y="95" width="180" height="46" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="130" y="123" text-anchor="middle" font-size="14" fill="#0f172a">Siti comunali</text>
+  <rect x="40" y="162" width="180" height="46" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="130" y="190" text-anchor="middle" font-size="14" fill="#0f172a">BUR regionali</text>
+  <rect x="40" y="229" width="180" height="46" rx="8" fill="#f1f5f9" stroke="#94a3b8"/>
+  <text x="130" y="257" text-anchor="middle" font-size="14" fill="#0f172a">Normattiva</text>
+
+  <path d="M220,118 C250,118 250,185 278,185" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <path d="M220,185 L278,185" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <path d="M220,252 C250,252 250,185 278,185" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Reperimento e monitoraggio -->
+  <text x="497" y="72" text-anchor="middle" font-size="12" font-weight="bold" fill="#2563eb" letter-spacing="1">FASE 1 · BASE DATI</text>
+  <path d="M280,88 L280,82 L715,82 L715,88" fill="none" stroke="#2563eb" stroke-width="1.4"/>
+  <rect x="280" y="125" width="200" height="120" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="1.6"/>
+  <text x="380" y="158" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">Reperimento e</text>
+  <text x="380" y="177" text-anchor="middle" font-size="15" font-weight="bold" fill="#1e3a8a">monitoraggio</text>
+  <text x="380" y="204" text-anchor="middle" font-size="12" fill="#334155">verifica validità</text>
+  <text x="380" y="222" text-anchor="middle" font-size="12" fill="#334155">controllo aggiornamenti</text>
+
+  <!-- Ciclo di controllo periodico -->
+  <path d="M380,245 L380,310 L130,310 L130,279" fill="none" stroke="#2563eb" stroke-width="1.4" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+  <text x="255" y="328" text-anchor="middle" font-size="12" fill="#2563eb">controllo periodico delle fonti</text>
+
+  <path d="M480,185 L533,185" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+
+  <!-- Database -->
+  <path d="M535,115 L535,255 A90,18 0 0,0 715,255 L715,115" fill="#2563eb" stroke="#1e40af" stroke-width="1.6"/>
+  <ellipse cx="625" cy="115" rx="90" ry="18" fill="#3b82f6" stroke="#1e40af" stroke-width="1.6"/>
+  <text x="625" y="170" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">Database</text>
+  <text x="625" y="190" text-anchor="middle" font-size="16" font-weight="bold" fill="#ffffff">BuildEr</text>
+  <text x="625" y="217" text-anchor="middle" font-size="12" fill="#dbeafe">documenti validi</text>
+  <text x="625" y="234" text-anchor="middle" font-size="12" fill="#dbeafe">fonte + data aggiornamento</text>
+
+  <path d="M715,165 C745,165 745,125 773,125" fill="none" stroke="#475569" stroke-width="1.6" marker-end="url(#arrow)"/>
+  <path d="M715,215 C745,215 745,255 773,255" fill="none" stroke="#475569" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#arrow)"/>
+
+  <!-- Fase 2 -->
+  <text x="875" y="78" text-anchor="middle" font-size="12" font-weight="bold" fill="#16a34a" letter-spacing="1">FASE 2 · MVP</text>
+  <rect x="775" y="90" width="200" height="72" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.6"/>
+  <text x="875" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#14532d">Web app di consultazione</text>
+  <text x="875" y="140" text-anchor="middle" font-size="12" fill="#334155">ricerca · download PDF</text>
+  <text x="875" y="155" text-anchor="middle" font-size="12" fill="#334155">preferiti · cartelle · notifiche</text>
+
+  <!-- Fase 3 -->
+  <text x="875" y="206" text-anchor="middle" font-size="12" font-weight="bold" fill="#9333ea" letter-spacing="1">FASE 3 · EVOLUZIONE</text>
+  <rect x="775" y="218" width="200" height="72" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="1.6" stroke-dasharray="6 4"/>
+  <text x="875" y="246" text-anchor="middle" font-size="15" font-weight="bold" fill="#581c87">AI integrata</text>
+  <text x="875" y="268" text-anchor="middle" font-size="12" fill="#334155">risposte in linguaggio naturale</text>
+  <text x="875" y="283" text-anchor="middle" font-size="12" fill="#334155">basate solo sul DB BuildEr</text>
+
+  <!-- Timeline -->
+  <line x1="60" y1="395" x2="940" y2="395" stroke="#cbd5e1" stroke-width="2"/>
+  <circle cx="200" cy="395" r="8" fill="#2563eb"/>
+  <circle cx="500" cy="395" r="8" fill="#16a34a"/>
+  <circle cx="800" cy="395" r="8" fill="#ffffff" stroke="#9333ea" stroke-width="2" stroke-dasharray="3 2"/>
+  <text x="200" y="425" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Fase 1 — Base dati</text>
+  <text x="200" y="443" text-anchor="middle" font-size="12" fill="#64748b">il fondamento del progetto</text>
+  <text x="500" y="425" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Fase 2 — Consultazione</text>
+  <text x="500" y="443" text-anchor="middle" font-size="12" fill="#64748b">web app semplice (MVP)</text>
+  <text x="800" y="425" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Fase 3 — Intelligenza artificiale</text>
+  <text x="800" y="443" text-anchor="middle" font-size="12" fill="#64748b">fuori perimetro MVP</text>
+</svg>

@@ -52,7 +52,25 @@ Non è incluso:
 
 ## 3. Obiettivi e metriche di successo
 
-_Da compilare: obiettivi di prodotto, KPI e target misurabili._
+### 3.1 Obiettivo principale
+
+L'obiettivo principale di BuildEr è costruire una **base di dati solida e affidabile** della normativa edilizia e urbanistica comunale, alimentata da un sistema in grado di **reperire automaticamente i documenti aggiornati e validi** dalle sole fonti istituzionali (siti comunali, BUR regionali, Normattiva).
+
+Il vero valore del progetto non è l'interfaccia, ma il dato: un archivio ordinato per regione, provincia e comune, in cui ogni documento ha una fonte tracciata, una data di aggiornamento e la garanzia di essere la versione in vigore. Tutto ciò che BuildEr potrà diventare in futuro si appoggia su questa base.
+
+### 3.2 Evoluzione del prodotto
+
+Una volta costruita questa base, le possibilità di sviluppo sono molte. Il percorso previsto è graduale:
+
+1. **Fase 1 — Base dati e monitoraggio.** Raccolta dei documenti dalle fonti ufficiali, verifica della loro validità e monitoraggio automatico degli aggiornamenti (Epic 5, 8, 9).
+2. **Fase 2 — Web app di consultazione (MVP).** All'inizio BuildEr sarà una web app semplice: ricerca, consultazione e download dei PDF, preferiti, cartelle condivise e notifiche (Epic 1–7). È il perimetro descritto nella sezione 2.3.
+3. **Fase 3 — Intelligenza artificiale integrata.** In un secondo momento l'applicazione potrà integrare un'AI che attinge **esclusivamente dal database di BuildEr**, per esempio per rispondere in linguaggio naturale a domande sulle normative. Proprio perché le risposte si baserebbero su documenti verificati e aggiornati, l'AI erediterebbe l'affidabilità della base dati. Questa fase è fuori dal perimetro dell'MVP (vedi sezione 2.3, "Non è incluso").
+
+![Schema dell'obiettivo di BuildEr](images/obiettivi-schema.svg)
+
+### 3.3 Metriche di successo
+
+_Da compilare: KPI e target misurabili per ciascuna fase._
 
 ---
 
@@ -134,17 +152,17 @@ Il bisogno è confermato dai tre Consigli nazionali (architetti, ingegneri, geom
 
 Il backlog è organizzato in 9 Epic. Ogni Epic ha un proprio file di dettaglio in [epics/](epics/). Le User Story verranno ridefinite in base alla struttura degli Epic.
 
-| Epic   | Titolo                                      | File                                                                             |
-| ------ | ------------------------------------------- | -------------------------------------------------------------------------------- |
-| EPIC 1 | Creazione e accesso al profilo                           | [epic-1-accesso-profilo.md](epics/epic-1-accesso-profilo.md)                     |
-| EPIC 2 | Cartelle personali                          | [epic-2-cartelle-personali.md](epics/epic-2-cartelle-personali.md)               |
-| EPIC 3 | Ricerca utenti e inviti                    | [epic-3-ricerca-utenti-inviti.md](epics/epic-3-ricerca-utenti-inviti.md)         |
-| EPIC 4 | Cartelle condivise                          | [epic-4-cartelle-condivise.md](epics/epic-4-cartelle-condivise.md)               |
-| EPIC 5 | Archivio normativo                          | [epic-5-archivio-normativo.md](epics/epic-5-archivio-normativo.md)               |
-| EPIC 6 | Notifiche                                   | [epic-6-notifiche.md](epics/epic-6-notifiche.md)                                 |
-| EPIC 7 | Assistenza                                  | [epic-7-assistenza.md](epics/epic-7-assistenza.md)                               |
-| EPIC 8 | Amministrazione (solo Admin)                | [epic-8-amministrazione.md](epics/epic-8-amministrazione.md)                     |
-| EPIC 9 | Monitoraggio automatico delle fonti (Admin) | [epic-9-monitoraggio-automatico.md](epics/epic-9-monitoraggio-automatico.md)     |
+| Epic   | Titolo                                      | File                                                                         |
+| ------ | ------------------------------------------- | ---------------------------------------------------------------------------- |
+| EPIC 1 | Creazione e accesso al profilo              | [epic-1-accesso-profilo.md](epics/epic-1-accesso-profilo.md)                 |
+| EPIC 2 | Cartelle personali                          | [epic-2-cartelle-personali.md](epics/epic-2-cartelle-personali.md)           |
+| EPIC 3 | Ricerca utenti e inviti                     | [epic-3-ricerca-utenti-inviti.md](epics/epic-3-ricerca-utenti-inviti.md)     |
+| EPIC 4 | Cartelle condivise                          | [epic-4-cartelle-condivise.md](epics/epic-4-cartelle-condivise.md)           |
+| EPIC 5 | Archivio normativo                          | [epic-5-archivio-normativo.md](epics/epic-5-archivio-normativo.md)           |
+| EPIC 6 | Notifiche                                   | [epic-6-notifiche.md](epics/epic-6-notifiche.md)                             |
+| EPIC 7 | Assistenza                                  | [epic-7-assistenza.md](epics/epic-7-assistenza.md)                           |
+| EPIC 8 | Amministrazione (solo Admin)                | [epic-8-amministrazione.md](epics/epic-8-amministrazione.md)                 |
+| EPIC 9 | Monitoraggio automatico delle fonti (Admin) | [epic-9-monitoraggio-automatico.md](epics/epic-9-monitoraggio-automatico.md) |
 
 ---
 
@@ -159,52 +177,133 @@ Il backlog è organizzato in 9 Epic. Ogni Epic ha un proprio file di dettaglio i
 - [US-1.5 — Modifica del profilo](user-stories/us-1.5-modifica-profilo.md)
 - [US-1.6 — Eliminazione del profilo](user-stories/us-1.6-eliminazione-profilo.md)
 
+### EPIC 2 — Cartelle personali
+
+- [US-2.1 — Creazione di una cartella](user-stories/us-2.1-creazione-cartella.md)
+- [US-2.2 — Rinomina di una cartella](user-stories/us-2.2-rinomina-cartella.md)
+- [US-2.3 — Eliminazione di una cartella](user-stories/us-2.3-eliminazione-cartella.md)
+- [US-2.4 — Aggiunta di un documento a una cartella](user-stories/us-2.4-aggiunta-documento.md)
+- [US-2.5 — Rimozione di un documento da una cartella](user-stories/us-2.5-rimozione-documento.md)
+- [US-2.6 — Elenco delle cartelle](user-stories/us-2.6-elenco-cartelle.md)
+- [US-2.7 — Visualizzazione del contenuto di una cartella](user-stories/us-2.7-contenuto-cartella.md)
+
+### EPIC 3 — Ricerca utenti e inviti
+
+- [US-3.1 — Ricerca degli utenti](user-stories/us-3.1-ricerca-utenti.md)
+- [US-3.2 — Invio di un invito a una cartella](user-stories/us-3.2-invio-invito.md)
+- [US-3.3 — Accettazione o rifiuto di un invito](user-stories/us-3.3-risposta-invito.md)
+
+### EPIC 4 — Cartelle condivise
+
+- [US-4.1 — Visualizzazione di una cartella condivisa e dei membri](user-stories/us-4.1-visualizzazione-cartella-condivisa.md)
+- [US-4.2 — Aggiunta di un documento a una cartella condivisa](user-stories/us-4.2-aggiunta-documento-condivisa.md)
+- [US-4.3 — Rimozione di un documento da una cartella condivisa](user-stories/us-4.3-rimozione-documento-condivisa.md)
+- [US-4.4 — Uscita da una cartella condivisa (autoesclusione)](user-stories/us-4.4-autoesclusione.md)
+
+### EPIC 5 — Archivio normativo
+
+- [US-5.1 — Ricerca dei documenti con filtri](user-stories/us-5.1-ricerca-documenti.md)
+- [US-5.2 — Dashboard di copertura nella home](user-stories/us-5.2-dashboard-copertura.md)
+- [US-5.3 — Scheda di dettaglio del documento](user-stories/us-5.3-scheda-documento.md)
+- [US-5.4 — Download del documento in PDF](user-stories/us-5.4-download-pdf.md)
+- [US-5.5 — Consultazione online del documento](user-stories/us-5.5-consultazione-online.md)
+- [US-5.6 — Documenti preferiti](user-stories/us-5.6-preferiti-documenti.md)
+- [US-5.7 — Province preferite](user-stories/us-5.7-preferiti-province.md)
+
+### EPIC 6 — Notifiche
+
+- [US-6.1 — Notifica di invito a una cartella](user-stories/us-6.1-notifica-invito.md)
+- [US-6.2 — Notifica di aggiornamento di un documento preferito](user-stories/us-6.2-notifica-aggiornamento-preferito.md)
+- [US-6.3 — Notifica di aggiunta di un documento richiesto](user-stories/us-6.3-notifica-documento-richiesto.md)
+- [US-6.4 — Notifiche per provincia](user-stories/us-6.4-notifiche-provincia.md)
+- [US-6.5 — Centro notifiche](user-stories/us-6.5-centro-notifiche.md)
+
+### EPIC 7 — Assistenza
+
+- [US-7.1 — Segnalazione di assistenza tecnica](user-stories/us-7.1-assistenza-tecnica.md)
+- [US-7.2 — Richiesta di inserimento di un nuovo comune](user-stories/us-7.2-richiesta-nuovo-comune.md)
+
+### EPIC 8 — Amministrazione (solo Admin)
+
+- [US-8.1 — Inserimento di un documento](user-stories/us-8.1-inserimento-documento.md)
+- [US-8.2 — Modifica e aggiornamento di un documento](user-stories/us-8.2-modifica-documento.md)
+- [US-8.3 — Eliminazione o archiviazione di un documento](user-stories/us-8.3-archiviazione-documento.md)
+- [US-8.4 — Gestione di regioni, province e comuni](user-stories/us-8.4-gestione-territorio.md)
+- [US-8.5 — Gestione delle richieste di nuovo comune](user-stories/us-8.5-gestione-richieste-comune.md)
+- [US-8.6 — Gestione delle segnalazioni di assistenza](user-stories/us-8.6-gestione-segnalazioni.md)
+- [US-8.7 — Gestione degli utenti](user-stories/us-8.7-gestione-utenti.md)
+
+### EPIC 9 — Monitoraggio automatico delle fonti (solo Admin)
+
+- [US-9.1 — Pagina di monitoraggio](user-stories/us-9.1-pagina-monitoraggio.md)
+- [US-9.2 — Configurazione delle fonti da monitorare](user-stories/us-9.2-configurazione-fonti.md)
+- [US-9.3 — Rilevamento automatico delle modifiche](user-stories/us-9.3-rilevamento-modifiche.md)
+- [US-9.4 — Revisione e approvazione degli aggiornamenti rilevati](user-stories/us-9.4-revisione-aggiornamenti.md)
+- [US-9.5 — Log e storico dei controlli](user-stories/us-9.5-log-controlli.md)
+- [US-9.6 — Avvio manuale del controllo di una fonte](user-stories/us-9.6-controllo-manuale.md)
+
 ## 10. Assunzioni e vincoli
 
 Assunzioni di partenza e vincoli (legali, tecnici, di budget, di tempo). Questa sezione è un documento vivo: le voci vengono analizzate nel tempo e lo stato aggiornato (Da analizzare, In analisi, Deciso).
 
 ### 10.1 Legali
 
-| ID    | Voce                          | Descrizione                                                                                                                     | Stato         | Domande aperte                                                                                                                                    |
-| ----- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| VL-01 | Riproduzione dei PDF          | I documenti dei comuni verrebbero ripubblicati sulla piattaforma; la licenza d'uso non è nota e può variare da comune a comune. | Da analizzare | Quali regole sul riuso dei dati pubblici e quali licenze si applicano? Basta citare la fonte o serve un permesso?                                 |
-| VL-02 | Raccolta automatica dai siti  | Il monitoraggio delle fonti (Epic 8) scarica periodicamente file dai siti istituzionali.                                        | Da analizzare | I termini d'uso dei siti e robots.txt lo consentono? Con quale frequenza è accettabile?                                                           |
-| VL-03 | Responsabilità sulla versione | Un utente potrebbe lavorare su un documento non più in vigore perché l'aggiornamento non è stato ancora rilevato.               | Da analizzare | Quale disclaimer è necessario? Come si dichiara che la fonte ufficiale resta quella del comune?                                                   |
-| VL-04 | GDPR e dati personali         | La piattaforma tratta dati personali di utenti professionisti (profilo, cartelle condivise, preferiti, notifiche).              | Da analizzare | Chi è il titolare del trattamento? Servono informativa, registro dei trattamenti e contratto con chi ospita i dati? Dove devono risiedere i dati? |
-| VL-05 | Termini di servizio e cookie  | Servono termini di servizio, informativa privacy e gestione dei cookie prima del lancio.                                        | Da analizzare | Chi li redige? È necessaria una consulenza legale?                                                                                                |
+|    ID     | Voce                          |     Stato     | Descrizione                                                                                                                     | Domande aperte                                                                                                                                    |
+| :-------: | ----------------------------- | :-----------: | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **VL-01** | Riproduzione dei PDF          | Da analizzare | I documenti dei comuni verrebbero ripubblicati sulla piattaforma; la licenza d'uso non è nota e può variare da comune a comune. | Quali regole sul riuso dei dati pubblici e quali licenze si applicano? Basta citare la fonte o serve un permesso?                                 |
+| **VL-02** | Raccolta automatica dai siti  | Da analizzare | Il monitoraggio delle fonti (Epic 8) scarica periodicamente file dai siti istituzionali.                                        | I termini d'uso dei siti e robots.txt lo consentono? Con quale frequenza è accettabile?                                                           |
+| **VL-03** | Responsabilità sulla versione | Da analizzare | Un utente potrebbe lavorare su un documento non più in vigore perché l'aggiornamento non è stato ancora rilevato.               | Quale disclaimer è necessario? Come si dichiara che la fonte ufficiale resta quella del comune?                                                   |
+| **VL-04** | GDPR e dati personali         | Da analizzare | La piattaforma tratta dati personali di utenti professionisti (profilo, cartelle condivise, preferiti, notifiche).              | Chi è il titolare del trattamento? Servono informativa, registro dei trattamenti e contratto con chi ospita i dati? Dove devono risiedere i dati? |
+| **VL-05** | Termini di servizio e cookie  | Da analizzare | Servono termini di servizio, informativa privacy e gestione dei cookie prima del lancio.                                        | Chi li redige? È necessaria una consulenza legale?                                                                                                |
 
 ### 10.2 Tecnici
 
-| ID    | Voce                          | Descrizione                                                                                                                                | Stato         | Domande aperte                                                                                 |
-| ----- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------- | ---------------------------------------------------------------------------------------------- |
-| VT-01 | Eterogeneità delle fonti      | Ogni comune pubblica i documenti in formato e posizione diversi, senza standard.                                                           | Da analizzare | Come si configura una fonte in modo robusto? Quanto lavoro manuale richiede ogni nuovo comune? |
-| VT-02 | Rilevamento delle modifiche   | Il confronto tra versioni (es. impronta del file) può dare falsi positivi se il PDF viene rigenerato senza modifiche reali.                | Da analizzare | Quale metodo di confronto è affidabile? Come si riducono i falsi aggiornamenti?                |
-| VT-03 | PDF scansionati               | Molti PDF possono essere immagini non ricercabili; la ricerca nel testo richiederebbe il riconoscimento del testo (OCR), oggi fuori scope. | Da analizzare | La ricerca per comune, provincia e tipologia è sufficiente al lancio?                          |
-| VT-04 | Piattaforma e infrastruttura  | Non sono ancora stati scelti stack, hosting, archiviazione dei file, invio email, backup.                                                  | Da analizzare | Quali scelte tecnologiche? Quali requisiti di sicurezza e disponibilità?                       |
-| VT-05 | Copertura iniziale dei comuni | Il lancio non copre tutti i circa 7.900 comuni; la copertura cresce gradualmente.                                                          | Da analizzare | Quali comuni e province all'inizio? Con quale criterio si scelgono?                            |
+|    ID     | Voce                          |     Stato     | Descrizione                                                                                                                                | Domande aperte                                                                                 |
+| :-------: | ----------------------------- | :-----------: | ------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------- |
+| **VT-01** | Eterogeneità delle fonti      | Da analizzare | Ogni comune pubblica i documenti in formato e posizione diversi, senza standard.                                                           | Come si configura una fonte in modo robusto? Quanto lavoro manuale richiede ogni nuovo comune? |
+| **VT-02** | Rilevamento delle modifiche   | Da analizzare | Il confronto tra versioni (es. impronta del file) può dare falsi positivi se il PDF viene rigenerato senza modifiche reali.                | Quale metodo di confronto è affidabile? Come si riducono i falsi aggiornamenti?                |
+| **VT-03** | PDF scansionati               | Da analizzare | Molti PDF possono essere immagini non ricercabili; la ricerca nel testo richiederebbe il riconoscimento del testo (OCR), oggi fuori scope. | La ricerca per comune, provincia e tipologia è sufficiente al lancio?                          |
+| **VT-04** | Piattaforma e infrastruttura  | Da analizzare | Non sono ancora stati scelti stack, hosting, archiviazione dei file, invio email, backup.                                                  | Quali scelte tecnologiche? Quali requisiti di sicurezza e disponibilità?                       |
+| **VT-05** | Copertura iniziale dei comuni | Da analizzare | Il lancio non copre tutti i circa 7.900 comuni; la copertura cresce gradualmente.                                                          | Quali comuni e province all'inizio? Con quale criterio si scelgono?                            |
 
 ### 10.3 Budget
 
-| ID    | Voce                               | Descrizione                                                                                   | Stato         | Domande aperte                                        |
-| ----- | ---------------------------------- | --------------------------------------------------------------------------------------------- | ------------- | ----------------------------------------------------- |
-| VB-01 | Costi ricorrenti di infrastruttura | Hosting, archiviazione dei PDF, email transazionali, dominio, monitoraggio.                   | Da analizzare | Qual è la stima mensile al lancio e a regime?         |
-| VB-02 | Consulenza legale                  | Probabile costo una tantum per licenze, GDPR e termini di servizio.                           | Da analizzare | Quale preventivo? Quali aspetti sono prioritari?      |
-| VB-03 | Lavoro di inserimento e controllo  | Inserimento e verifica dei documenti da parte dell'Admin: potenzialmente la voce più pesante. | Da analizzare | Quante ore per comune? Chi lo svolge?                 |
-| VB-04 | Modello di ricavi                  | Non è ancora definito; il concorrente Arcai ha un piano Pro a 39 €/mese (vedi sezione 4).     | Da analizzare | Gratuito, abbonamento, piano per studi? Quale prezzo? |
-| VB-05 | Budget complessivo e fondi         | Il budget disponibile e la sua origine non sono stati stabiliti.                              | Da analizzare | Quanto si può investire e per quanto tempo?           |
+|    ID     | Voce                               |     Stato     | Descrizione                                                                                   | Domande aperte                                        |
+| :-------: | ---------------------------------- | :-----------: | --------------------------------------------------------------------------------------------- | ----------------------------------------------------- |
+| **VB-01** | Costi ricorrenti di infrastruttura | Da analizzare | Hosting, archiviazione dei PDF, email transazionali, dominio, monitoraggio.                   | Qual è la stima mensile al lancio e a regime?         |
+| **VB-02** | Consulenza legale                  | Da analizzare | Probabile costo una tantum per licenze, GDPR e termini di servizio.                           | Quale preventivo? Quali aspetti sono prioritari?      |
+| **VB-03** | Lavoro di inserimento e controllo  | Da analizzare | Inserimento e verifica dei documenti da parte dell'Admin: potenzialmente la voce più pesante. | Quante ore per comune? Chi lo svolge?                 |
+| **VB-04** | Modello di ricavi                  | Da analizzare | Non è ancora definito; il concorrente Arcai ha un piano Pro a 39 €/mese (vedi sezione 4).     | Gratuito, abbonamento, piano per studi? Quale prezzo? |
+| **VB-05** | Budget complessivo e fondi         | Da analizzare | Il budget disponibile e la sua origine non sono stati stabiliti.                              | Quanto si può investire e per quanto tempo?           |
 
 ### 10.4 Assunzioni di partenza
 
-| ID    | Voce                                     | Descrizione                                                                                                              | Stato         | Domande aperte                                                       |
-| ----- | ---------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | ------------- | -------------------------------------------------------------------- |
-| AS-01 | Fonti pubbliche e raggiungibili          | I documenti sono sempre disponibili pubblicamente sui canali istituzionali.                                              | Da analizzare | Che cosa accade se un comune rimuove o sposta un documento?          |
-| AS-02 | Disponibilità degli utenti a registrarsi | I professionisti accettano di creare un profilo per accedere ai documenti.                                               | Da analizzare | L'ipotesi è stata verificata con utenti reali oltre al caso di Elia? |
-| AS-03 | Curatela manuale dei contenuti           | I contenuti sono curati da un Admin; i rilevamenti automatici richiedono sempre una revisione prima della pubblicazione. | Da analizzare | Quante persone servono per mantenere la qualità dei dati?            |
-| AS-04 | Valori dei requisiti non funzionali      | I valori numerici della sezione 9 (tempi, volumi, conservazione) sono ipotesi.                                           | Da analizzare | Chi li valida e con quali dati?                                      |
+|    ID     | Voce                                     |     Stato     | Descrizione                                                                                                              | Domande aperte                                                       |
+| :-------: | ---------------------------------------- | :-----------: | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------- |
+| **AS-01** | Fonti pubbliche e raggiungibili          | Da analizzare | I documenti sono sempre disponibili pubblicamente sui canali istituzionali.                                              | Che cosa accade se un comune rimuove o sposta un documento?          |
+| **AS-02** | Disponibilità degli utenti a registrarsi | Da analizzare | I professionisti accettano di creare un profilo per accedere ai documenti.                                               | L'ipotesi è stata verificata con utenti reali oltre al caso di Elia? |
+| **AS-03** | Curatela manuale dei contenuti           | Da analizzare | I contenuti sono curati da un Admin; i rilevamenti automatici richiedono sempre una revisione prima della pubblicazione. | Quante persone servono per mantenere la qualità dei dati?            |
+| **AS-04** | Valori dei requisiti non funzionali      | Da analizzare | I valori numerici della sezione 9 (tempi, volumi, conservazione) sono ipotesi.                                           | Chi li valida e con quali dati?                                      |
 
 ---
 
 ## 11. Stack tecnologico
+
+L'applicazione sarà sviluppata interamente in **C# su piattaforma .NET**. La scelta è guidata da tre motivi:
+
+- **Ecosistema maturo e ben supportato.** .NET è mantenuto da Microsoft, ha rilasci regolari con supporto a lungo termine (LTS) e una documentazione ampia; un solo linguaggio copre backend, frontend e accesso ai dati.
+- **Integrazione con modelli linguistici (LLM).** Esistono numerose librerie per integrare servizi di intelligenza artificiale (es. Microsoft.Extensions.AI, Semantic Kernel, SDK ufficiali dei principali fornitori). Questo lascia aperta l'evoluzione futura del prodotto, ad esempio ricerca nel testo dei documenti, riassunti delle norme o assistenza basata sui contenuti dell'archivio (vedi sez. 3.2 e VT-03).
+- **Scalabilità.** La piattaforma consente di partire con un'applicazione semplice e farla crescere con l'aumento di utenti e comuni coperti, anche su servizi cloud gestiti.
+
+| Livello          | Tecnologia                           |    Stato    | Note                                                                                                      |
+| ---------------- | ------------------------------------ | :---------: | --------------------------------------------------------------------------------------------------------- |
+| Linguaggio       | C# / .NET                            |   Deciso    | Unico linguaggio per tutta l'applicazione.                                                                |
+| Frontend         | Blazor                               |   Deciso    | Interfaccia web scritta in C#, senza dover introdurre un framework JavaScript separato.                   |
+| Backend          | ASP.NET Core + Entity Framework Core |   Deciso    | EF Core gestisce l'accesso ai dati e le migrazioni dello schema, indipendentemente dal database.          |
+| Database         | Azure SQL **oppure** PostgreSQL      | Da definire | Entrambi supportati da EF Core; la scelta dipende da hosting, costi (VB-01) e residenza dei dati (VL-04). |
+| Integrazione LLM | Da definire                          |   Futuro    | Non previsto per l'MVP; lo stack è scelto per renderla possibile senza riscritture.                       |
+
+Restano da definire, insieme al database, hosting, archiviazione dei PDF, invio delle email e backup (VT-04).
 
 ## 12. Dipendenze
 

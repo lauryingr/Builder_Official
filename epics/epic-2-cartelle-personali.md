@@ -10,4 +10,12 @@ Ambito:
 
 ## User Story
 
-_Da definire._
+| ID     | Titolo                                         | File                                                                            |
+| ------ | ---------------------------------------------- | ------------------------------------------------------------------------------- |
+| US-2.1 | Creazione di una cartella                      | [us-2.1-creazione-cartella.md](../user-stories/us-2.1-creazione-cartella.md)     |
+| US-2.2 | Rinomina di una cartella                       | [us-2.2-rinomina-cartella.md](../user-stories/us-2.2-rinomina-cartella.md)       |
+| US-2.3 | Eliminazione di una cartella                   | [us-2.3-eliminazione-cartella.md](../user-stories/us-2.3-eliminazione-cartella.md) |
+| US-2.4 | Aggiunta di un documento a una cartella        | [us-2.4-aggiunta-documento.md](../user-stories/us-2.4-aggiunta-documento.md)     |
+| US-2.5 | Rimozione di un documento da una cartella      | [us-2.5-rimozione-documento.md](../user-stories/us-2.5-rimozione-documento.md)   |
+| US-2.6 | Elenco delle cartelle                          | [us-2.6-elenco-cartelle.md](../user-stories/us-2.6-elenco-cartelle.md)           |
+| US-2.7 | Visualizzazione del contenuto di una cartella  | [us-2.7-contenuto-cartella.md](../user-stories/us-2.7-contenuto-cartella.md)     |
