@@ -13,5 +13,5 @@
 - Aprendo una cartella l'utente vede l'elenco dei documenti con titolo, tipologia, comune e provincia, data/versione di ultimo aggiornamento e fonte ufficiale.
 - Da ogni documento l'utente può aprire la scheda di dettaglio, consultarlo online o scaricarlo in PDF (Epic 5).
 - I documenti aggiornati dall'ultima apertura della cartella sono evidenziati.
-- Se la cartella è vuota viene mostrato un messaggio con l'invito a cercare documenti nell'archivio.
-- Dalla cartella l'utente può rinominarla, eliminarla e rimuovere documenti (US-2.2, US-2.3, US-2.5).
+- Se la cartella è vuota viene mostrato un messaggio con l'invito ad aggiungere documenti nell'archivio.
+- Dalla cartella l'utente può rinominarla, eliminarla e rimuovere documenti, condividere la cartella attraverso un bottone di condivisione.(US-2.2, US-2.3, US-2.5).

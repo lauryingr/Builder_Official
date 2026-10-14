@@ -9,6 +9,7 @@ Ambito:
 - Gestione delle richieste di nuovo comune
 - Gestione delle segnalazioni di assistenza
 - Gestione degli utenti della piattaforma
+- Consultazione dei log di sistema
 
 ## User Story
 
@@ -21,3 +22,4 @@ Ambito:
 | US-8.5 | Gestione delle richieste di nuovo comune     | [us-8.5-gestione-richieste-comune.md](../user-stories/us-8.5-gestione-richieste-comune.md) |
 | US-8.6 | Gestione delle segnalazioni di assistenza    | [us-8.6-gestione-segnalazioni.md](../user-stories/us-8.6-gestione-segnalazioni.md)         |
 | US-8.7 | Gestione degli utenti                        | [us-8.7-gestione-utenti.md](../user-stories/us-8.7-gestione-utenti.md)                     |
+| US-8.8 | Consultazione dei log di sistema             | [us-8.8-log-sistema.md](../user-stories/us-8.8-log-sistema.md)                             |

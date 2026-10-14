@@ -39,7 +39,7 @@ E' inclusa:
 - Data/versione di ultimo aggiornamento visibile su ogni documento con chiara indicazione della fonte da cui proviene per sicurezza.
 - Ricerca filtro per tipologia di documento oltre che per provincia e comune.
 - Dashboard nella home con le 20 regioni, le relative province e i comuni, in verde se la normativa del comune è presente e in rosso altrimenti
-- Gestione multi-utente: cartelle condivisibili con altri utenti (team = membri di una cartella, tutti pari), con inviti per email
+- Gestione multi-utente: cartelle condivisibili con altri utenti (team = membri di una cartella, tutti pari), con inviti e notifiche solo interni al portale (nessuna notifica via email)
 
 Non è incluso:
 
@@ -67,10 +67,6 @@ Una volta costruita questa base, le possibilità di sviluppo sono molte. Il perc
 3. **Fase 3 — Intelligenza artificiale integrata.** In un secondo momento l'applicazione potrà integrare un'AI che attinge **esclusivamente dal database di BuildEr**, per esempio per rispondere in linguaggio naturale a domande sulle normative. Proprio perché le risposte si baserebbero su documenti verificati e aggiornati, l'AI erediterebbe l'affidabilità della base dati. Questa fase è fuori dal perimetro dell'MVP (vedi sezione 2.3, "Non è incluso").
 
 ![Schema dell'obiettivo di BuildEr](images/obiettivi-schema.svg)
-
-### 3.3 Metriche di successo
-
-_Da compilare: KPI e target misurabili per ciascuna fase._
 
 ---
 
@@ -186,6 +182,7 @@ Il backlog è organizzato in 9 Epic. Ogni Epic ha un proprio file di dettaglio i
 - [US-2.5 — Rimozione di un documento da una cartella](user-stories/us-2.5-rimozione-documento.md)
 - [US-2.6 — Elenco delle cartelle](user-stories/us-2.6-elenco-cartelle.md)
 - [US-2.7 — Visualizzazione del contenuto di una cartella](user-stories/us-2.7-contenuto-cartella.md)
+- [US-2.8 — Sottocartelle](user-stories/us-2.8-sottocartelle.md)
 
 ### EPIC 3 — Ricerca utenti e inviti
 
@@ -232,6 +229,7 @@ Il backlog è organizzato in 9 Epic. Ogni Epic ha un proprio file di dettaglio i
 - [US-8.5 — Gestione delle richieste di nuovo comune](user-stories/us-8.5-gestione-richieste-comune.md)
 - [US-8.6 — Gestione delle segnalazioni di assistenza](user-stories/us-8.6-gestione-segnalazioni.md)
 - [US-8.7 — Gestione degli utenti](user-stories/us-8.7-gestione-utenti.md)
+- [US-8.8 — Consultazione dei log di sistema](user-stories/us-8.8-log-sistema.md)
 
 ### EPIC 9 — Monitoraggio automatico delle fonti (solo Admin)
 
@@ -353,7 +351,7 @@ _Da compilare: rischi principali (es. qualità/copertura dei dati, aspetti legal
 
 - Tutte le User Story del perimetro di fase completate e criteri di accettazione verificati
 - Requisiti non funzionali critici rispettati (prestazioni, sicurezza, accessibilità, sez. 9)
-- Backup e ripristino provati; invio email affidabile (inviti, notifiche)
+- Backup e ripristino provati; invio affidabile delle email di servizio (verifica account, recupero password)
 
 **Operativi**
 

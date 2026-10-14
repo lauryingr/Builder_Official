@@ -14,9 +14,11 @@
 - Dallo stesso punto l'utente può creare una nuova cartella e aggiungervi subito il documento.
 - Lo stesso documento può stare in più cartelle, ma non due volte nella stessa; se è già presente viene mostrato un messaggio chiaro.
 - Il documento compare subito nella cartella e l'utente riceve la conferma.
-- Nella cartella il documento mostra sempre la versione in vigore, con data/versione di ultimo aggiornamento e fonte ufficiale.
+- Nella cartella il documento mostra sempre la versione in vigore, con data/versione di ultimo aggiornamento e fonte ufficiale (Requisito).
 
 ## Note
 
-- Il documento nella cartella è un collegamento all'archivio, non una copia: quando la normativa viene aggiornata, la cartella mostra la nuova versione.
-- Da chiarire se l'utente potrà caricare propri PDF (per ora no, solo documenti dell'archivio).
+- Il documento nella cartella è un collegamento all'archivio, non una copia: quando la normativa viene aggiornata, la cartella mostra la nuova versione,
+in quanto tale l'utente non può eliminare né modificare in modo alcuno i documenti. 
+
+- L'utente NON può caricare propri documenti né file in nessun modo.

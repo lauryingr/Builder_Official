@@ -10,13 +10,13 @@
 
 ## Criteri di accettazione
 
-- La home mostra le 20 regioni; da ogni regione si scende alle province e da ogni provincia ai comuni.
-- Ogni comune è verde se la sua normativa è presente e rosso altrimenti.
+- La home mostra un elenco navigabile delle 20 regioni; da ogni regione si scende alle province e da ogni provincia ai comuni.
+- Ogni comune è verde se è coperto e rosso altrimenti. Nella prima versione di BuildEr un comune è coperto quando è presente il suo Regolamento Edilizio.
 - Per regioni e province viene mostrato quanti comuni sono coperti sul totale.
 - Cliccando un comune verde l'utente vede i suoi documenti; cliccando un comune rosso può richiederne l'inserimento (US-7.2).
 - Il colore non è l'unica indicazione: lo stato è riportato anche in testo, per l'accessibilità.
 
 ## Note
 
-- Da chiarire quando un comune è "coperto": basta un documento o servono Regolamento Edilizio, strumento urbanistico e NTA?
-- Da chiarire se la dashboard è una mappa o un elenco navigabile.
+- Nelle versioni successive la regola di copertura potrà includere anche strumento urbanistico e NTA.
+

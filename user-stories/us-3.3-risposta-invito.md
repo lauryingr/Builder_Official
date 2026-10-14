@@ -15,6 +15,7 @@
 - Se accetta, diventa membro della cartella con gli stessi diritti degli altri membri e la cartella compare nel suo elenco.
 - Se rifiuta, non entra nella cartella e chi lo ha invitato riceve una notifica del rifiuto.
 - Dopo la risposta l'invito non è più modificabile; per entrare in seguito serve un nuovo invito.
+- Se l'invitato non risponde entro 20 giorni l'invito scade e viene eliminato (US-6.5); serve un nuovo invito.
 
 ## Note
 

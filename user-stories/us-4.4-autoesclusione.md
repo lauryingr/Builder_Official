@@ -14,7 +14,7 @@
 - Nessun membro può escludere un altro: si può solo uscire di propria volontà.
 - Dopo l'uscita la cartella sparisce dal suo elenco e il suo nome non compare più tra i membri.
 - I documenti che aveva aggiunto restano nella cartella per gli altri membri.
-- Se esce l'ultimo membro, la cartella viene eliminata.
+- Se esce l'ultimo membro, la cartella viene eliminata e l'ultimo utente visualizza un messaggio che esplicita che in quanto ultimo membro la cartella verrà irreversibilmente eliminata. 
 - Per rientrare serve un nuovo invito da parte di un membro.
 
 ## Note

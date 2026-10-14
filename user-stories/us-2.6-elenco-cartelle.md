@@ -14,8 +14,8 @@
 - L'elenco è ordinato per data di ultima modifica, con la più recente in alto, e può essere ordinato anche per nome.
 - L'utente può cercare una cartella per nome.
 - Se l'utente non ha ancora cartelle viene mostrato un messaggio con l'invito a crearne una.
-- Ogni cartella è visibile solo al suo proprietario: nessun altro utente vede le cartelle personali.
+- Ogni cartella è visibile solo al suo proprietario: nessun altro utente vede le cartelle personali previo condivisione autorizzata.
 
 ## Note
 
-- Da chiarire come si distinguono nell'elenco le cartelle personali da quelle condivise (Epic 4).
+

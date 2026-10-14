@@ -21,3 +21,7 @@
 ## Note
 
 - Eventuali campi aggiuntivi utili alla ricerca utenti (Epic 3), come studio o provincia (per ora no).
+- L'utente NON può caricare propri documenti né file in nessun modo.
+- Nessun utente eccetto Admin può in modo alcuno accedere al DB dell'archivio normativo. 
+- Un utente può scegliere di non comparire nella ricerca e dunque non essere aggiunto e partecipare a cartelle condivise, questa opzione deve essere presentata nelle impostazioni di modifica del profilo, di default vengono settate con il flag di visibilità attivo (consenso accettato nei termini e condizioni esplicitati alla creazione dell'account).
+

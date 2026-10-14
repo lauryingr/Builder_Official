@@ -10,12 +10,15 @@
 
 ## Criteri di accettazione
 
-- L'Admin carica il PDF e compila titolo, tipologia, comune, data/versione, fonte ufficiale (link) e data di verifica.
-- Tutti i campi obbligatori devono essere compilati; la fonte deve essere un sito istituzionale.
-- L'Admin vede un'anteprima prima della pubblicazione.
-- Il documento è visibile agli utenti solo dopo la pubblicazione; dopo la pubblicazione il comune risulta coperto nella dashboard (US-5.2).
+- Un nuovo documento può entrare nell'archivio in due modi:
+  - in automatico: BuildEr acquisisce il PDF dalle fonti monitorate (Epic 9) e precompila i dati; l'Admin li controlla e li completa;
+  - a mano: l'Admin carica il PDF e compila i dati.
+- I dati richiesti sono titolo, tipologia, comune, data/versione, fonte ufficiale (link) e data di verifica. Tutti i campi obbligatori devono essere compilati; la fonte deve essere un sito istituzionale.
+- In entrambi i casi l'Admin vede un'anteprima e il documento è visibile agli utenti solo dopo che l'Admin lo ha pubblicato.
+- Dopo la pubblicazione la dashboard di copertura si aggiorna secondo la regola di US-5.2 (nella prima versione un comune è coperto quando è presente il Regolamento Edilizio).
 - La pubblicazione genera le notifiche per provincia (US-6.4).
 
 ## Note
 
-- Ogni documento è verificato da una persona prima della pubblicazione (AS-03).
+- Ogni documento è verificato da una persona prima della pubblicazione (AS-03), anche quando è stato acquisito in automatico.
+- L'obiettivo di BuildEr è automatizzare il più possibile l'acquisizione; l'inserimento manuale resta per i casi che il sistema automatico non copre.

@@ -14,7 +14,4 @@
 - L'Admin può eliminare un documento inserito per errore, dopo una conferma esplicita.
 - Prima della conferma l'Admin vede in quante cartelle e preferiti è presente il documento.
 - Nelle cartelle e nei preferiti il documento archiviato o eliminato è segnalato come non più disponibile.
-
-## Note
-
-- Da chiarire se gli utenti che lo avevano nei preferiti o nelle cartelle ricevono una notifica.
+- Gli utenti che avevano il documento nei preferiti o nelle cartelle non ricevono una notifica: vedono solo la segnalazione "non più disponibile".

@@ -12,8 +12,8 @@
 
 - Il membro può rimuovere un documento dopo una conferma esplicita.
 - Il documento sparisce per tutti i membri e resta disponibile nell'archivio normativo.
+- Qualsiasi membro può rimuovere un documento, anche se aggiunto da un altro membro, dato che tutti i membri sono pari.
 
 ## Note
 
-- Regola da chiarire: può rimuovere un documento qualsiasi membro o solo chi lo ha aggiunto? (proposta: qualsiasi membro, dato che sono tutti pari).
-- Da chiarire chi può rinominare la cartella condivisa (proposta: qualsiasi membro).
+- Qualsiasi membro può anche rinominare la cartella condivisa (US-2.2).

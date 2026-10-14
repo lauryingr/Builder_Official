@@ -10,13 +10,12 @@
 
 ## Criteri di accettazione
 
-- Dal proprio spazio personale l'utente può creare una nuova cartella indicandone il nome.
-- Il nome è obbligatorio e non può coincidere con quello di un'altra cartella dello stesso utente; in caso contrario viene mostrato un messaggio chiaro.
-- Il nome rispetta una lunghezza massima indicata nel modulo.
+- Dal proprio spazio personale (una dashboard) l'utente può creare una nuova cartella indicandone il nome.
+- Il nome è obbligatorio e rispetta una lunghezza massima indicata nel modulo; non ci sono altri vincoli (più cartelle possono avere lo stesso nome).
 - La cartella appena creata è vuota, compare subito nell'elenco delle cartelle ed è visibile solo al suo proprietario.
 - L'utente riceve la conferma della creazione.
+- Ogni utente può avere al massimo 5 cartelle principali (le sottocartelle non contano nel limite); al raggiungimento del limite viene mostrato un messaggio chiaro.
 
 ## Note
 
-- Per ora le cartelle sono su un solo livello (nessuna sottocartella).
-- Da chiarire se esiste un numero massimo di cartelle per utente.
+- Le sottocartelle sono descritte in US-2.8.
