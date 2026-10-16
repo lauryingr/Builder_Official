@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Principio di base: versionare, non sovrascrivere
+## 1. Principio di base: versionare, non sovrascrivere 
 
 Ogni nuova versione di un documento viene **salvata accanto** alla precedente; cambia solo il puntatore alla "versione in vigore" che vedono gli utenti.
 
